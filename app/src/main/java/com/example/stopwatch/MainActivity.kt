@@ -52,13 +52,9 @@ class MainActivity : AppCompatActivity() {
 
                  val editText = findViewById<EditText>(R.id.edit_View)
                  val input = Integer.parseInt(editText.text.toString())
-              //  if(input != null)
-                //{
-                  //  stopwatch.base += input * 1000
-                //}
-                //else {
-                 //   stopwatch.base += 0
-                //}
+
+                   stopwatch.base += input * 1000
+
 
 
 
