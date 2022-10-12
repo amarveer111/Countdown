@@ -50,9 +50,17 @@ class MainActivity : AppCompatActivity() {
                 //set running = true
                 running = true
 
-             val editText = findViewById<EditText>(R.id.edit_View)
-             val input   = Integer.parseInt(editText.text.toString())
-                stopwatch.base += input*1000
+                 val editText = findViewById<EditText>(R.id.edit_View)
+                 val input = Integer.parseInt(editText.text.toString())
+              //  if(input != null)
+                //{
+                  //  stopwatch.base += input * 1000
+                //}
+                //else {
+                 //   stopwatch.base += 0
+                //}
+
+
 
 
 
@@ -68,13 +76,6 @@ class MainActivity : AppCompatActivity() {
                 saveOffset()
                 //stop the stopwatch
                 stopwatch.stop()
-
-
-
-
-
-
-
 
                 //set running = false
                 running = false

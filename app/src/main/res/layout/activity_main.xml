@@ -48,7 +48,8 @@
         android:id="@+id/edit_View"
         android:layout_width="wrap_content"
         android:layout_height="57dp"
-        android:hint="InputSeconds" />
+        android:hint="InputSeconds"
+        android:text="0"/>
 
 
 </LinearLayout>
