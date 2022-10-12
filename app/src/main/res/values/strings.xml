@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StopWatch</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="plus_five">+5</string>
+    <string name="minus_five">-5</string>
+
+
+</resources>
